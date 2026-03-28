@@ -55,7 +55,7 @@ In this automated version:
     - Deletes SSH key pairs only if they exist
     - Redirects `stdout` and `stderr` to separate files
 
-**REQUIREMNTS**
+**REQUIREMENTS**
 - AWS CLI installed and configured (IAM user with access key). *see [coming soon!]*
 - Terraform installed   *see [coming soon!]*
 - Python installed  *see [coming soon!]*
