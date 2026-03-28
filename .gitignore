@@ -1,0 +1,11 @@
+# These files are auto-generated when you run the scripts (build.py and destroy.py).
+
+automated/infrastructure/.terraform
+automated/terraform_build_stderr.log
+automated/terraform_build_stdout.log
+automated/terraform_destroy_stderr.log
+automated/terraform_destroy_stdout.log
+
+automated/infrastructure/terraform_key
+automated/infrastructure/terraform_key.pub
+

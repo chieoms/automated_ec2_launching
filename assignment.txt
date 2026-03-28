@@ -1,0 +1,20 @@
+Task 1:
+
+1. Create an EC2 Instance:
+    - Launch a new EC2 instance (Amazon Linux or Ubuntu)
+    - Create a new key pair (e.g., my-key.pem)
+    - Note the instance's public IP or DNS
+2. Connect using MobaXterm:
+    - Open MobaXterm, create a new SSH session
+    - Use the instance's IP/DNS, username (ec2-user for Amazon Linux, ubuntu for Ubuntu), and my-key.pem
+    - Connect!
+3. Connect using CMD (Windows) or Terminal (Mac/Linux):
+    - ssh -i my-key.pem ec2-user@<instance-ip> (or ubuntu@<instance-ip>)
+4. Connect using AWS Console:
+    - Go to EC2 > Instances > Select your instance
+    - Click "Connect" > "EC2 Instance Connect"
+    - Connect via browser-based SSH
+
+Deliverables:
+- Screenshot of successful connections using all three methods
+- Note any issues faced and how you resolved them

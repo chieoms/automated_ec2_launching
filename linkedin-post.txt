@@ -1,0 +1,31 @@
+Assignment 1 – CONNECTING TO AN EC2 INSTANCE
+Instructor: @osung-osung
+
+For this assignment, I connected to an EC2 instance using multiple methods:
+
+TRADITIONAL SSH (Secure Shell):
+- Git Bash
+- PowerShell
+- MobaXterm
+
+AWS SYSTEMS MANAGER (SSM) - Session Manager: 
+I also explored EC2 Instance Connect (browser-based SSH), but then tried the more secure alternative: SSM Session Manager.
+
+Why SSM Session Manager stands out:
+-- More secure --
+No need to open port 22 in security groups, no permanent SSH keys to manage, and access is controlled entirely via IAM roles/policies.
+Works perfectly for instances in private subnets (no public IP or bastion host required).
+
+-- Faster subsequent connections --
+The first connection may take a little longer (due to agent handshake/setup), but afterwards it's usually one-click instant access via the AWS Console or CLI.
+
+-- Recommended for production environments --
+AWS strongly promotes SSM Session Manager for secure, auditable access without exposing instances to the internet.
+
+Revisiting this assignment helped me gain hands-on experience with SSM Session Manager — a key skill for secure cloud operations.
+
+More details about the assignment on GitHub: [link]
+Recorded walkthrough video on YouTube: [link]
+
+--> 17th Feb 2026 
+#DevOps #AWS #CloudComputing #Linux #EC2 #SystemsManager #LearningInPublic
