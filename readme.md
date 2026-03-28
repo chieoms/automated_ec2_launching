@@ -61,7 +61,8 @@ In this automated version:
 - Python installed  *see [coming soon!]*
 - Powershell (Recommended) 
 
-***Note:*** *I built this script to automate what I had already built, so it will work as long as you don’t modify it.*    
+***Note:*** *I built this script to automate what I had already built, so it will work as long as you don’t modify it.*   
+***Change directory to the `automated` folder and run the scripts (`python build.py` to create and log in to the EC2 instance, and `python destroy.py` to destroy the infrastructure created by `build.py`), provided you have set up all the requirements.***
    
 ![automated_login](./screenshots/automated_login.PNG) 
    
